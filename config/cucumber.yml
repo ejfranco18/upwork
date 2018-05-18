@@ -1,0 +1,2 @@
+#Profile to generate the results in HTML file
+report: --format progress --format html --out results/<%= Time.now.strftime("%Y%m%d-%H%M%S") %>-report.html
